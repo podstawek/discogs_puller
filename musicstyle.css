@@ -1,0 +1,32 @@
+body {text-align: left; font-family: sans-serif; color: #1b1616; margin: 2%}
+
+
+main {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content:center;
+}
+section {
+  padding: 0px;
+  border: dotted #cf8f37 1px;
+}
+
+
+td{border-right: none; border-bottom: none; padding: 10px; text-align: center}
+td.year{font-size: small; border-right: none; border-bottom: none; padding: 5px;  font-weight: bold; color: brown; font-size: large}
+td.country{font-size: small; border-right: none; border-bottom: none; padding: 5px;  font-weight: bold; color: grey; font-size: large}
+
+.genre{font-size: small; color: lightgrey}
+
+	
+h1, h2, h3 {color: #cf8f37}
+
+figure {text-align: center}
+figcaption {font-family: helvetica; color: #c7b0cc; font-size: small}
+
+
+a {color: #a3bed5; text-decoration: none}
+
+a:hover {color: black; background: #cf8f37}
+
