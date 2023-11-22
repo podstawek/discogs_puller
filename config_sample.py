@@ -1,0 +1,2 @@
+token = "yourDiscogsToken"
+username = "yourDiscogsUsername"
