@@ -87,9 +87,3 @@ with open('index.html', 'w') as f:
 
 
     f.write('</body>')
-current_list = d.list(1351230)
-print (dir(current_list))
-print (dir(d.master(64167)))
-print (d.master(64167).data)
-print (d.master(64167).main_release)
-print (dir(d.master(64167).main_release))
